@@ -7,10 +7,18 @@
 
 #include "Bnodo.h"
 
-namespace tpdatos {
+struct Bnodo {
+
+int key;
+struct Bnodo *izq;
+struct Bnodo *der;
+
+};
 
 Bnodo::Bnodo() {
-	// TODO Auto-generated constructor stub
+	key=0;
+	izq=0;
+	der=0;
 
 }
 
@@ -18,4 +26,3 @@ Bnodo::~Bnodo() {
 	// TODO Auto-generated destructor stub
 }
 
-} /* namespace tpdatos */
