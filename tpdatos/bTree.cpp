@@ -12,7 +12,6 @@ class bTree {
 
 private:
 	Bnodo *raiz;
-
 };
 
 bTree::bTree() {
