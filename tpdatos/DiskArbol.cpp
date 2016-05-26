@@ -1,20 +1,18 @@
 /*
- * c0.cpp
+ * DiskArbol.cpp
  *
- *  Created on: 19/5/2016
+ *  Created on: 24/5/2016
  *      Author: matu
  */
 
-#include "c0.h"
+#include "DiskArbol.h"
 
-/* CLASE QUE CONTIENE EL ARBOL B */
-
-c0::c0() {
+DiskArbol::DiskArbol() {
 	// TODO Auto-generated constructor stub
 
 }
 
-c0::~c0() {
+DiskArbol::~DiskArbol() {
 	// TODO Auto-generated destructor stub
 }
 
