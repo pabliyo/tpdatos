@@ -7,20 +7,21 @@
 
 #include "Bnodo.h"
 
-struct Bnodo {
+class Bnodo {
 
-int key;
-struct Bnodo *izq;
-struct Bnodo *der;
+private:
+	int key;
+	Bnodo *izq;
+	Bnodo *der;
+
+public:
+	Bnodo(int=0, Bnodo *izq=0, Bnodo *der=0);
+
 
 };
 
-Bnodo::Bnodo() {
-	key=0;
-	izq=0;
-	der=0;
 
-}
+
 
 Bnodo::~Bnodo() {
 	// TODO Auto-generated destructor stub

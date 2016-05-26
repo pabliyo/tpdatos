@@ -6,9 +6,17 @@
  */
 
 #include "bTree.h"
+#include "Bnodo.h"
+
+class bTree {
+
+private:
+	Bnodo *raiz;
+
+};
 
 bTree::bTree() {
-	// TODO Auto-generated constructor stub
+	raiz=0;
 
 }
 
